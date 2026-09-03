@@ -1,0 +1,15 @@
+# Node
+node_modules/
+
+# CocoaPods — Xcode Cloud's ci_post_clone.sh runs `pod install` fresh on every
+# build, so Pods/ never needs to be committed (it's large and machine-generated).
+# Podfile.lock IS kept (not ignored) so every build resolves the exact same
+# dependency versions.
+ios/App/Pods/
+
+# Xcode
+ios/App/build/
+ios/App/DerivedData/
+*.xcuserstate
+xcuserdata/
+.DS_Store
